@@ -1,16 +1,1 @@
-import { storyblokInit, apiPlugin } from "@storyblok/react/rsc";
-
-const components = {
-  // We'll add our components here
-};
-
-export function initStoryblok() {
-  storyblokInit({
-    accessToken: process.env.STORYBLOK_PREVIEW_TOKEN,
-    use: [apiPlugin],
-    components,
-    apiOptions: {
-      region: "us", // or 'eu' depending on your Storyblok space region
-    },
-  });
-}
+aW1wb3J0IHsgc3RvcnlibG9rSW5pdCwgYXBpUGx1Z2luIH0gZnJvbSAiQHN0b3J5Ymxvay9yZWFjdC9yc2MiOwoKY29uc3QgY29tcG9uZW50cyA9IHsKICAvLyBXZSdsbCBhZGQgb3VyIGNvbXBvbmVudHMgaGVyZQp9OwoKZXhwb3J0IGZ1bmN0aW9uIGluaXRTdG9yeWJsb2soKSB7CiAgc3RvcnlibG9rSW5pdCh7CiAgICBhY2Nlc3NUb2tlbjogcHJvY2Vzcy5lbnYuU1RPUllCTE9LX1BSRVZJRVdfVE9LRU4sCiAgICB1c2U6IFthcGlQbHVnaW5dLAogICAgY29tcG9uZW50cywKICAgIGFwaU9wdGlvbnM6IHsKICAgICAgcmVnaW9uOiAidXMiLCAvLyBvciAnZXUnIGRlcGVuZGluZyBvbiB5b3VyIFN0b3J5YmxvayBzcGFjZSByZWdpb24KICAgIH0sCiAgfSk7Cn0=
